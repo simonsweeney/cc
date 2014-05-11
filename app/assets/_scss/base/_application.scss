@@ -24,7 +24,56 @@
 
 .header-primary {}
 
-.nav-primary {}
+.nav-primary {
+	font-size:13px;
+	font-family: "Arial", sans-serif;
+	letter-spacing: 3px;
+	a {
+		color:white;
+		&:hover {
+			color: $yellow;
+		}
+	}
+	.bands {
+		position:fixed;
+		left:2%;
+		top:47%;
+		/* Safari */
+		-webkit-transform: rotate(-90deg);
+
+		/* Firefox */
+		-moz-transform: rotate(-90deg);
+
+		/* IE */
+		-ms-transform: rotate(-90deg);
+
+		/* Opera */
+		-o-transform: rotate(-90deg);
+
+		/* Internet Explorer */
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	}
+
+	.photos {
+		position:fixed;
+		right:2%;
+		top:47%;
+		/* Safari */
+		-webkit-transform: rotate(90deg);
+
+		/* Firefox */
+		-moz-transform: rotate(90deg);
+
+		/* IE */
+		-ms-transform: rotate(90deg);
+
+		/* Opera */
+		-o-transform: rotate(90deg);
+
+		/* Internet Explorer */
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);		
+	}
+}
 
 .content-primary {}
 

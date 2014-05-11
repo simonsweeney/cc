@@ -22,12 +22,16 @@ $light-gray: #DDD;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
-
+$yellow: yellow;
 // Body Color
-$base-body-color: white;
+$base-body-color: black;
+
+html, body {
+	background: black;
+}
 
 //  Font Colors
-$base-font-color: $dark-gray;
+$base-font-color: white;
 $base-accent-color: $blue;
 
 //  Text Link Colors

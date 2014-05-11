@@ -1,0 +1,55 @@
+.home {
+	text-align:center;
+}
+
+.left {
+	@include span-columns(5);
+	@include shift(1);
+
+}
+.masks {
+	@include pad(120px 0 0 0);
+	@include span-columns(8);
+	@include shift(2);
+
+	div {
+		@include span-columns(3);
+		@include omega(4n);
+	}
+}
+.right {
+	@include span-columns(5);
+}
+
+.content {
+	@include span-columns(10);
+	@include shift(1);
+
+	h1 {
+		@include pad(120px 0 0 0);
+	}
+
+	.images1 {
+		@include pad(80px 0 0 0);
+	}
+
+	.images2 {
+		@include pad(160px 0 200px 0);
+	}
+}
+
+.social {
+	position: absolute;
+	top:1490px;
+	width:5%;
+	left:48%;
+	font-size:13px;
+	line-height:1.1em;
+	font-family: "Arial", sans-serif;
+	a {
+		color:white;
+		&:hover {
+			color: $yellow;
+		}
+	}
+}
