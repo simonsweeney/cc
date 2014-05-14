@@ -2,6 +2,7 @@
 	text-align:center;
 }
 
+
 .left {
 	@include span-columns(5);
 	@include shift(1);
@@ -25,8 +26,12 @@
 	@include span-columns(10);
 	@include shift(1);
 
-	h1 {
+	h1, h2 {
 		@include pad(120px 0 0 0);
+	}
+	
+	.video {
+		@include pad(60px 0 60px 0);
 	}
 
 	.images1 {

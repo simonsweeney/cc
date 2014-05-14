@@ -24,7 +24,17 @@
 
 .header-primary {}
 
-.nav-primary {
+.home-link {
+	left:27%;
+	top:5%;
+}
+
+.bands, .photos, .home-link {
+	position:fixed;
+	z-index:10;
+}
+
+.nav-primary, .home-link {
 	font-size:13px;
 	font-family: "Arial", sans-serif;
 	letter-spacing: 3px;
@@ -34,6 +44,9 @@
 			color: $yellow;
 		}
 	}
+
+
+
 	.bands {
 		position:fixed;
 		left:2%;
