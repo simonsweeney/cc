@@ -1,6 +1,19 @@
-# cc
+#
 
-[Describe the project.]
+Mama was queen of the mambo, Papa was king of the Congo
+Deep down in the jungle I started bangin' my first bongo
+Every monkey'd like to be in my place instead of me
+'Cause I'm the king of bongo, baby I'm the king of bongo bong
+
+I went to the big town where there is a lot of sound
+From the jungle to the city looking for a bigger crown
+So I play my boogie for the people of big city
+But they don't go crazy when I'm bangin' on my boogie
+
+I'm the "king of the bongo, king of the bongo bong"
+Hear me when I come, baby
+"King of the bongo, king of the bongo bong"
+
 
 ## Project Setup
 This project utilizes Playbook, reference Playbook's [setup guide](https://github.com/centresource/generator-playbook#get-started).
