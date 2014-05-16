@@ -67,7 +67,18 @@
 
 
 /* Photos */
-.fixed-creep-l,.fixed-creep-r {position:fixed; width:50%;top:43%;text-align: center;z-index:0;}
+.fixed-creep-l,.fixed-creep-r {
+	position:fixed; 
+	width:50%;
+	top:41.5%;
+	text-align: center;
+	z-index:0;
+
+	h1 {
+		font-size: 100px;
+	}
+}
+
 .fixed-creep-l {left:5%;}
 .fixed-creep-r {right:5%;}
 
@@ -81,7 +92,7 @@
 	
 	img {
 		width:80%;
-		margin-left:20%;
+		margin-left:10%;
 	}
 
 	/*a {
@@ -110,7 +121,7 @@
 }
 .two {
 	@include span-columns(6);
-	img{width:90%;margin-left:10%;}
+	img{width:90%;margin-left:5%;}
 }
 .three {
 	@include span-columns(9);

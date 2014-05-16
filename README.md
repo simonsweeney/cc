@@ -10,9 +10,9 @@ From the jungle to the city looking for a bigger crown
 So I play my boogie for the people of big city
 But they don't go crazy when I'm bangin' on my boogie
 
-I'm the "king of the bongo, king of the bongo bong"
-Hear me when I come, baby
-"King of the bongo, king of the bongo bong"
+### I'm the "king of the bongo, king of the bongo bong"
+### Hear me when I come, baby
+### "King of the bongo, king of the bongo bong"
 
 
 ## Project Setup
