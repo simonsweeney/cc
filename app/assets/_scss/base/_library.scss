@@ -127,5 +127,17 @@
 	@include span-columns(9);
 }
 
-
-
+.pad {padding-bottom:49.5%;}
+.arrow {
+	width:40%;
+	margin-bottom:30px;
+	text-align: center;
+	margin-left: 50%;
+	font-size:30px;
+	a {
+		color:white;
+		&:hover {
+			color: $yellow;
+		}
+	}
+}
