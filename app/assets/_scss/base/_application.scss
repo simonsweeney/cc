@@ -27,10 +27,12 @@
 .home-link {
 	left:27%;
 	top:5%;
-	
-	a:hover {
-	/*some nice hover action please*/
+	margin-top: 0px;
+	@include easing;
 
+	&:hover {
+	/*some nice hover action please*/
+		margin-top: -5px;
 	}
 
 
@@ -56,22 +58,36 @@
 
 	.bands {
 		left:2%;
+		margin-left: 5px;
 		top:47%;
 		-webkit-transform: rotate(-90deg);
 		-moz-transform: rotate(-90deg);
 		-ms-transform: rotate(-90deg);
 		-o-transform: rotate(-90deg);
 		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+
+		@include easing;
+		&:hover {
+			margin-left: 0px;
+		}
 	}
 
 	.photos {
 		right:2%;
+		margin-right: 5px;
 		top:47%;
 		-webkit-transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
 		-ms-transform: rotate(90deg);
 		-o-transform: rotate(90deg);
-		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);		
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);	
+
+		@include easing;
+		&:hover {
+			margin-right: 0px;
+		}
+	
 	}
 }
 
